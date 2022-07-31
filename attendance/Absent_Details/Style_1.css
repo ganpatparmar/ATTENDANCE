@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.std {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    background: linear-gradient(45deg, #49a09d);
+}
+.container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid; 
+}
+
+th,td {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+th {
+    background-color: rgb(6, 61, 129);
+}
+
+.thead{
+    background-color: rgb(6, 61, 129);
+}
