@@ -21,20 +21,46 @@
       body{
         background-image: url("Top_10_Favorite_Features_time_attendance_systems_veritime.jpg");
         color: aliceblue;
+        background-color: black;
 
         
       }
       h1{
         color: aliceblue;
         font-family: "Sofia", sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         text-shadow: 3px 3px 3px #ababab;
         
       }
-      #form1{
-        background-color: black;
-
+      
+      a:link {
+        color: green;
       }
+      
+      
+      a:visited {
+        color: green;
+      }
+      
+      
+      a:hover {
+        color: red;
+      }
+      
+      
+      a:active {
+        color: yellow;
+      }
+      
+
+    #c1{
+      margin-top: 17rem!important;
+    }
+
+    #c2{
+      margin-top: 12rem!important;
+      margin-left: -8rem ;
+    }
     </style>
 
     
@@ -49,9 +75,9 @@
 
 
   <header>
-    <div class="container-fluid">
-      <nav class="navbar fw-bold">
-        <div class="container d-flex justify-content-center" style="width: 80;">
+    <div class="container-fluid fixed-top ">
+      <nav class="navbar fw-bold ">
+        <div class="container d-flex justify-content-center " style="width: 80;">
           <a class="navbar-brand" href="#">
             <img src="GECP_LOGO_recreated.png"
              alt="this is" width="80" id="logo"  class="rounded-circle">                      
@@ -64,20 +90,24 @@
     </div>
     <br>
     <br>
-    <br>
+    
   </header>
 
   <main>
-    <div class="container-fluid !direction !spacing m-5" style="width: auto;">
-      <h2>ONLINE ATTENDANCE MANAGEMENT</h2>
+    <div class="container-fluid !direction !spacing mt-5" style="width: fit-content; height: fit-content;" id="c1">
+      <div class="h2 pt-2">
+        ONLINE ATTENDANCE MANAGEMENT
+      </div>
+      
       <p class="h5">IF NOT REGISTERED...</p>
       <a class="btn btn-outline-warning" href="#" role="button">Register Now</a>      
     </div>
 
 
-    <div class="container-fluid !direction !spacing m-5 d-flex border border-4 rounded border-dark" 
-      style="width: auto" id="form1">
-      <form class="row g-3 needs-validation was-validated" nonvalidate="" >
+    <div class="container-fluid  d-flex border border-4 rounded border-dark mt-5" 
+      style="width: fit-content; height:fit-content;" id="c2"> 
+       
+      <form class="row g-3 needs-validation was-validated pl-2" nonvalidate="" id="form1">
         <div class="d-flex flex-column mb-3">
         
           <div class="p-2 d-flex justify-content-center"><h3>LOGIN</h3></div>
@@ -117,7 +147,7 @@
           </div>
   
           <div class="p-2">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-outline-primary">Sign in</button>
           </div>
   
           
@@ -168,7 +198,7 @@
 <footer>
   <p>
     Copyright <span>©️</span> GEC,Patan.
-</p>
+  </p>
 </footer>
 
 
