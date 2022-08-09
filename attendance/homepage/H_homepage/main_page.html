@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Forgot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<style>
+    .container {
+        background-image: url('istockphoto-1069239598-612x612.jpg');
+        height: 100vh;
+        background-size: cover;
+        overflow: hidden;
+        margin-top: -22px;
+    }
+
+    /*.container::before{
+        background-image: url('./images/istockphoto-1069239598-612x612.jpg');
+        height:100vh;
+        background-size: cover;
+        background-color: rgba(0,0,0,0.5); 
+    }*/
+    .container h1 {
+        color: white;
+        text-align: center;
+        height: 100vh;
+        background-color: rgb(0, 0, 0, 0.8);
+        padding-top: 10px;
+        font-family: 'Itim', cursive;
+        font-weight: 100;
+        overflow: hidden;
+        font-size: 40px;
+    }
+
+    #b4 {
+        width: 30px;
+    }
+
+    /*.container img{
+        width: 49px;
+        position: absolute;
+    left: 342px;
+    top: 31px;
+    }*/
+    .box1 {
+        position: absolute;
+        top: 286px;
+        left: 280px;
+
+        color: white;
+        font-family: 'Itim', cursive;
+
+    }
+
+    .box1 img {
+        width: 132px;
+        display: inline-block;
+        position: absolute;
+        top: -23px;
+        right: 323px;
+    }
+
+    #b1 {
+        font-size: 32px;
+        font-family: 'Itim', cursive;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .box1 p {
+        font-size: 15px;
+        margin-top: -35px;
+    }
+
+    .box1 button {
+        background-color: lightcoral;
+        border: 0px white solid;
+        border-radius: 18px;
+        color: white;
+        text-align: center;
+        font-family: 'Itim', cursive;
+        padding: 9px;
+    }
+
+    .box1 button:hover {
+        background-color: rgb(255, 170, 170);
+        color: black;
+    }
+
+    .box2 {
+        position: absolute;
+        top: 234px;
+        right: 303px;
+        background-color: white;
+        border: 2px white solid;
+        color: black;
+        border-radius: 5px;
+
+        font-family: 'Itim', cursive;
+        width: 256px;
+        height: 270px;
+        padding: 12px;
+    }
+
+
+    .box2 b {
+        font-size: 32px;
+        font-weight: 100;
+        margin-left: 70px;
+        color: dimgray;
+
+    }
+
+    .box2 select {
+        border: 0px white solid;
+        font-family: 'Itim', cursive;
+        background-color: #ffefef;
+        border-radius: 14px;
+        padding: 5px 25px 5px 25px;
+        margin: 0px 0px 0px 64px;
+        color: dimgray;
+    }
+
+    /*.box2 select:hover{
+        
+        background-color:rgb(255, 170, 170);
+    }*/
+
+    .box2 input {
+        background-color: #ffefef;
+        border: 0px white solid;
+        border-radius: 14px;
+        padding: 5px 0px 5px 10px;
+        margin: 0px 0px 0px 5px;
+        font-family: 'Itim';
+        width: 229px;
+    }
+
+    .box2 button {
+        background-color: lightcoral;
+        border: 0px white solid;
+        border-radius: 14px;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        margin-left: 100px;
+        margin-bottom: 10px;
+        font-family: 'Itim', cursive;
+    }
+
+    .box2 button:hover {
+        background-color: rgb(255, 170, 170);
+        color: black;
+    }
+
+    #b2 {
+        color: dimgray;
+        margin-left: 34px;
+    }
+
+    #b2 a {
+        color: indigo;
+    }
+
+    #b2 a:hover {
+        color: darkred;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h1>GOVERNMENT ENGINEERING COLLEGE , PATAN</h1>
+        <img id="b4" src="./images/GECP_LOGO_recreated.png" alt="">
+
+        <div class="box1">
+            <img src="imageedit_2_6066150904.png" alt="">
+            <p id="b1">ONLINE ATTENDANCE
+            <p>
+            <p>if not registered..</p>
+            <a href="#">
+                <button>
+                    Register Now
+                </button>
+            </a>
+        </div>
+        <div class="box2">
+            <b>Sign-up</b>
+            <p>
+                <select name="dropdown" id="select" placeholder="select a role">
+                    <!--<option value="Select a role">Select a role</option>-->
+                    <option value="Faculty">Faculty</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Student">Student</option>
+                </select>
+            </p>
+            <input type="email" placeholder="Email" required>
+            <p>
+                <input type="password" placeholder="password">
+            </p>
+            <a href="#">
+                <button>Sign-up</button>
+            </a>
+            <p id="b2">forget password?<a href="#">click here</a></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
