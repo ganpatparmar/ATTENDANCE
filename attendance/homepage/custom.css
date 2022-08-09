@@ -1,0 +1,100 @@
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+#contian1{
+  display: flex;
+  background-color: aqua;
+  border: 1cm;
+  border-color: blue;
+  
+
+  
+}
+
+body{
+  background-image: url("backimage.jpg");
+  color: aliceblue;
+  background-color: black;
+  background-size: cover;
+  font-family: "Trirong", serif;       
+}
+h1{
+  color: aliceblue;
+  font-family: "Sofia", sans-serif;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px #ababab;
+  
+}
+
+a:link {
+  color: green;
+}
+
+
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: red;
+}
+
+
+a:active {
+  color: yellow;
+}
+
+
+#c1{
+margin-top: 17rem!important;
+}
+
+#c2{
+margin-top: 12rem!important;
+margin-left: -8rem ;
+color: black;
+background-color: white;
+}
+
+
+
+#abc{
+  display: flex;
+  background-color: solid black;
+
+}
+
+
+html {
+  height: -webkit-fill-available;
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+}
+
+
+
+
+/* button css */
+
+.btn-primary {
+  background-color: #f314c3 !important;
+  border: #f314c3;
+  color: aliceblue;
+  
+}
+
+.btn-primary:hover{
+  background-color: rgb(230, 125, 198) !important;
+  color: black !important;
+}
