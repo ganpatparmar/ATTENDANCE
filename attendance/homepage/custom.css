@@ -6,6 +6,7 @@ body{
   background-size: cover;
   font-family: 'Itim', cursive;    
   min-height: 100% !important;   
+  overflow-y: hidden;
 }
 
 h1{
