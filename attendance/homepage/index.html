@@ -9,7 +9,11 @@
     <title>LOG IN</title>
 
     
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sidebars/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
@@ -19,17 +23,28 @@
     
     <!-- Custom styles for this template -->
     <link href="custom.css" rel="stylesheet">
+
+    
+
+      
   </head>
 
   
-  <body >
-  <header>
+  <body>
+    
+    <div class="container-fluid bg-dark"  style="--bs-bg-opacity: .9;">
+      <video  autoplay loop muted play-inline class="vid">
+        <source src="Video.mp4" type="video/mp4">
+      </video>
+      
+      <!-- HEADER SECTION -->
+      <header>
     <div class="container-fluid fixed-top ">
       <nav class="navbar fw-bold ">
         <div class="container d-flex justify-content-center " style="width: 80;">
           <a class="navbar-brand" href="#">
             <img src="GECP_LOGO_recreated.png"
-             alt="this is" width="80" id="logo"  class="rounded-circle">                      
+             alt="this is" width= "80" id="logo"  class="rounded-circle  img-fluid">                      
           </a>
           <div class="navbar-text">
             <h1 class="display-5 font-effect-fire">GOVERNMENT ENGINEERING COLLEGE, PATAN</h1>         
@@ -42,24 +57,36 @@
     
   </header>
 
+  <!-- MAIN SECTION -->
+
   <main>
-    <div class="container-fluid !direction !spacing mt-5" style="width: fit-content; height: fit-content;" id="c1">
+    
+    <div class="container-fluid !direction !spacing mt-5" style="width: fit-content; height: 100%;" id="c1">
       <div class="h2 pt-2">
-        ONLINE ATTENDANCE MANAGEMENT
+        <div class="row px-18 ">
+          <div class="col">
+            <img src="homeicon.jpeg"
+            alt="this is" width= "50" id="logo"  class="rounded-circle  img-fluid">
+            <strong>ONLINE ATTENDANCE MANAGEMENT</strong> 
+          </div>
+                 
+          
+        </div>
+        
       </div>
       
-      <p class="h5">IF NOT REGISTERED...</p>
-      <button type="submit" class="btn btn-outline-warning">Register</button>      
+      <p class="h6 pl-3">If not registered on this portal click on the button given below...</p>
+      <button type="submit" class="btn btn-light pl-3">Register</button>      
     </div>
 
 
     <div class="container-fluid  d-flex border border-4 rounded border-dark mt-5" 
-      style="width: fit-content; height:fit-content;" id="c2"> 
+      style="width: fit-content; height:100%;" id="c2"> 
        
-      <form class="row g-3 needs-validation was-validated pl-2" nonvalidate="" id="form1">
+      <form class="row g-3 needs-validation was-validated mr-10"  nonvalidate="" id="form1">
         <div class="d-flex flex-column mb-3">
         
-          <div class="p-2 d-flex justify-content-center"><h3>LOGIN</h3></div>
+          <div class="p-2 d-flex justify-content-center"><h3 id="login">LOGIN</h3></div>
 
           
           <div class="p-2">
@@ -74,7 +101,7 @@
   
           <div class="p-2">
             <div class="col-12">
-              <label for="validationServerUsername" class="form-label">Username</label>
+              
               <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend3">
                   <svg xmlns="http://www.w3.or  g/2000/svg" width="16" height="16" fill="currentColor" 
@@ -94,7 +121,7 @@
   
           <div class="p-2">
             <div class="col-12">
-              <label for="exampleDropdownFormPassword1" class="form-label ">Password</label>
+              
               <div class="input-group has-validation">
                 <span class="input-group-text" id="inputGroupPrepend3">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
@@ -107,14 +134,14 @@
             </div>            
           </div>
   
-          <div class="p-2">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+          <div class="ms-4 me-6">
+            <button type="submit" class="btn btn-light" id="sign">Sign in</button>
           </div>
   
           
   
           <div class="p-2">
-            <p>
+            <p id="fp">
               Forgot password?
             </p>
             <a class="dropdown-item" href="#">Click here</a>
@@ -129,12 +156,18 @@
 
   </main>
 
+  <!-- FOOTER SECTION -->
+
 <footer>
   <p>
     Copyright <span>©️</span> GEC,Patan.
   </p>
 </footer>
 
+
+</div>
+    
+  
 
     
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" 
