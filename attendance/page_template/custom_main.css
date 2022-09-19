@@ -1,0 +1,156 @@
+body{
+  background-image: url("bg_image_1.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+.main-content{
+  margin-top: 8%;
+}
+.gec{
+  /* font-family: 'Lilita One', cursive; */
+  font-family: 'Russo One', sans-serif;
+  /* font-family: 'Carter One', cursive; */
+}
+.oam{
+  margin-left: 15%;
+  margin-top: 6%;
+  font-family: 'Itim', cursive;
+  font-size: 170%;
+}
+  .container-fluid{
+    min-height: 100%;
+    min-width: 100%;
+  } 
+.form-1{
+  width:55% ;
+  padding: 3%;
+  margin-left: 10%;
+  border-radius: 5%;
+  background-color: white;
+}
+.form-select{
+  width: 94%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    background-color: #ffefef;
+  font-family: 'Itim', cursive;
+
+    color: dimgray;
+}
+.input-group{
+  width:100%;
+}
+.btn-s{
+  margin-left: 39%;
+  background-color: lightcoral;
+    color: white;
+  font-family: 'Itim', cursive;
+
+}
+.btn-s:hover{
+  background-color: rgb(255, 170, 170);
+  color: black;
+  font-family: 'Itim', cursive;
+
+}
+.sign-h{
+  /* margin-left: 32%; */
+  text-align: center;
+  margin-bottom: 5%;
+  color: dimgray;
+    font-size: 215%;
+  font-family: 'Itim', cursive;
+
+}
+.fa-solid{
+  background-color: #ffefef;
+}
+.input-group input{
+  font-family: 'Itim', cursive;
+
+  background-color: #ffefef;
+}
+.input-group-text{
+  background-color: #ffefef;
+}
+.register{
+  margin-left: 22%;
+
+}
+.register p{
+  color: white;
+  font-family: 'Itim', cursive;
+
+}
+.register button{
+  background-color: lightcoral;
+  border: white;
+  font-family: 'Itim', cursive;
+
+}
+.register button:hover{
+  background-color:rgb(255, 170, 170);
+  color: black;
+  font-family: 'Itim', cursive;
+
+}
+.fg{
+  margin-top: 5%;
+  margin-left: 24%;
+  font-family: 'Itim', cursive;
+  color: dimgray;
+}
+.fg a{
+  color: maroon;
+}
+.fg a:hover{
+  color: lightcoral;
+}
+.foot{
+  margin-top: 18%;
+  color: white;
+  margin-left: 2%;
+}
+
+@media (min-width: 0px) and (max-width:991px)
+{ 
+  .gec{
+    text-align: center;
+  }
+  .oam{
+    margin-left: 0%;
+    text-align: center;
+  }
+  .sign-in{
+    margin-top: 7%;
+  }
+  .register{
+    margin-left: 2%;
+    margin-top: 5%;
+    text-align: center;
+  }
+  
+  .form-1{
+    width:90% ;
+    /* padding: 3%; */
+    margin-left: 5%;
+    margin-top: 5%;
+    /* border-radius: 5%; */
+    /* background-color: white; */
+  }
+}
+/* @media screen and (min-width: 577px) and (max-width:991px)
+{
+  .register p{
+    font-size: 175%;
+  }
+} */
+/* @media screen and (min-width: 0px) and (max-width:576px)
+{
+  .register p{
+    font-size: 140%;
+  }
+} */
