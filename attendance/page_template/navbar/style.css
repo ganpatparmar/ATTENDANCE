@@ -1,0 +1,50 @@
+:root {
+    --primary: #48284A;
+    --secondary: #916C80;
+    --orchidPink: #FFC6D9;
+    --bisque: #FFE1C6;
+    --crayola: #FFF7AE;
+    --white: #f0f8ff;
+    
+  }
+.profile_image{
+
+    /* height: 95px; */
+    width: 80px;
+}
+
+.navbar{
+    background-color: var(--primary);
+    
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center
+}
+.profile_image{
+    border-radius: 40px
+}
+.row{
+    margin-right: 0%;
+    color: var(--white);
+}
+
+.loginButton{
+    border-radius: 30px;
+    background-color: var(--secondary);
+    border-color: var(--white);
+    color: var(--white);
+    
+}
+#loginRow{
+    margin-right: 0%;
+
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
